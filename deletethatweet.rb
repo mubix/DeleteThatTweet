@@ -164,7 +164,7 @@ puts "\t 'R' = Rate limit hit"
 			VALUES (?, ?, ?, ?, ?)",
 				[
 					tweet.id,
-					tweet.user.username,
+					tweet.user.screen_name,
 					tweet.full_text,
 					tweet.uri.to_s,
 					Time.now.to_s
