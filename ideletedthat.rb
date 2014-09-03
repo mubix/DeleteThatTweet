@@ -2,7 +2,6 @@
 
 require 'twitter'
 require 'sqlite3'
-require 'pry'
 require 'base64'
 
 @client = Twitter::REST::Client.new do |config|
