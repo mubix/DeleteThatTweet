@@ -16,7 +16,7 @@ The twitter bot is the only one that requires `read/write` privs.
 ### Beanstalk Install
 
 ```
-sudo apt-get install beanstalkd
+sudo apt-get install beanstalkd libsqlite3-dev build-essential
 ```
 You then need to edit the `/etc/default/beanstalkd` config file. Uncomment `#START=yes` and I would recommend only listening locally on `127.0.0.1`
 
