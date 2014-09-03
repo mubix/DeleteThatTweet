@@ -5,7 +5,6 @@ require 'sqlite3'
 require 'screencap'
 require 'backburner'
 require 'fileutils'
-require 'pry'
 
 # Database Config
 
