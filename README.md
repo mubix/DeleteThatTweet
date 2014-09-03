@@ -40,6 +40,19 @@ Under the `#Twitter Config` comment you need to supply ckey, csec, akey, and ase
 
 Should be as simple as: `ruby deletethattweet.rb`, make sure you have a few workers to handle the screenshots.
 
+```
+Deleted Tweets Archiver v0.2
+Key:
+	 '.' = Tweet recieved
+	 '!' = Screenshot taken
+	 '_' = Checking old tweet
+	 'D' = Deleted tweet found!
+	 'X' = Couldn't take screenshot, user is protected
+	 'V' = Discontinued tracking hour old tweet
+	 'T' = Talking to Twitter timed out
+	 'R' = Rate limit hit
+```
+
 ## dtt_worker.rb
 
 ### Configure
