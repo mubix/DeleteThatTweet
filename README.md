@@ -28,7 +28,7 @@ gem install twitter sqlite3 backburner screencap --no-rdoc --no-ri
 
 ### Known Issues
 
-On Kali Linux there is an issue where the screencap gem can't identify the platform, a fix will be posted here in the next few days.
+On Kali Linux there is an issue where the screencap gem can't identify the platform. If you find a fix, please post an issue.
 
 ## DeleteThatTweet.rb
 
